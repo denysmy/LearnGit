@@ -1,0 +1,171 @@
+Last login: Thu Apr  9 14:42:30 on ttys000
+denysmyronenko@Denyss-MBP ~ % git config --global user.name "mrahman"
+git config --global user.email "rahmanww@gmail.com"
+
+denysmyronenko@Denyss-MBP ~ % git config --global user.name "denysmy"
+denysmyronenko@Denyss-MBP ~ % git config --global user.email "denys87@gmail.com"
+denysmyronenko@Denyss-MBP ~ % clear
+
+
+
+
+
+
+
+
+
+
+denysmyronenko@Denyss-MBP ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made writable by user only:
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+
+Press RETURN to continue or any other key to abort
+Password:
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> /usr/bin/sudo /bin/chmod 755 /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> Downloading and installing Homebrew...
+HEAD is now at a348a1422 Merge pull request #7355 from MikeMcQuaid/formulae_paths
+Already up-to-date.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (or will be during this `install` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    https://docs.brew.sh
+denysmyronenko@Denyss-MBP ~ % 
+denysmyronenko@Denyss-MBP ~ % brew install git
+Warning: git 2.26.1 is already installed, it's just not linked
+You can use `brew link git` to link this version.
+denysmyronenko@Denyss-MBP ~ % global user.name "denysmy"
+zsh: command not found: global
+denysmyronenko@Denyss-MBP ~ % git config --global user.name "denysmy"
+denysmyronenko@Denyss-MBP ~ % git config --global user.email "denys87@gmail.com"
+denysmyronenko@Denyss-MBP ~ % git credential-osxkeychain
+usage: git credential-osxkeychain <get|store|erase>
+denysmyronenko@Denyss-MBP ~ % pbcopy < ~/.ssh/id_rsa.pub
+zsh: no such file or directory: /Users/denysmyronenko/.ssh/id_rsa.pub
+denysmyronenko@Denyss-MBP ~ % cd ~/.ssh
+cd: no such file or directory: /Users/denysmyronenko/.ssh
+denysmyronenko@Denyss-MBP ~ % $ cd ~/.ssh
+
+zsh: command not found: $
+denysmyronenko@Denyss-MBP ~ % ssh-keygen -t rsa -C "denys87@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/denysmyronenko/.ssh/id_rsa): 
+Created directory '/Users/denysmyronenko/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/denysmyronenko/.ssh/id_rsa.
+Your public key has been saved in /Users/denysmyronenko/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:vTsaVZEXK88f/TGwp1clGBQ6bLafFrMvZXrlh3eNbfs denys87@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|           .=o.. |
+|         . ..+.. |
+|          * +oo .|
+|         + + +o.o|
+|        S + o.o=o|
+|         . o ==.B|
+|        . . == B+|
+|         ..oo.= O|
+|        .... o.+E|
++----[SHA256]-----+
+denysmyronenko@Denyss-MBP ~ % pbcopy < ~/.ssh/id_rsa.pub
+denysmyronenko@Denyss-MBP ~ % ssh -T git@github.com
+The authenticity of host 'github.com (140.82.112.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? Yes
+Warning: Permanently added 'github.com,140.82.112.3' (RSA) to the list of known hosts.
+Enter passphrase for key '/Users/denysmyronenko/.ssh/id_rsa': 
+Hi denysmy! You've successfully authenticated, but GitHub does not provide shell access.
+denysmyronenko@Denyss-MBP ~ % lear
+zsh: command not found: lear
+denysmyronenko@Denyss-MBP ~ % clear
+
+denysmyronenko@Denyss-MBP ~ % git --version
+git version 2.15.0
+denysmyronenko@Denyss-MBP ~ % earn Git
+zsh: command not found: earn
+denysmyronenko@Denyss-MBP ~ % cd desktop
+denysmyronenko@Denyss-MBP desktop % learnGit
+zsh: command not found: learnGit
+denysmyronenko@Denyss-MBP desktop % cd LearnGit
+denysmyronenko@Denyss-MBP LearnGit % ls - al
+ls: -: No such file or directory
+ls: al: No such file or directory
+denysmyronenko@Denyss-MBP LearnGit % ls- al
+zsh: command not found: ls-
+denysmyronenko@Denyss-MBP LearnGit % ls
+HelloWorld.txt
+denysmyronenko@Denyss-MBP LearnGit % ls -a
+.		..		HelloWorld.txt
+denysmyronenko@Denyss-MBP LearnGit % git init
+Initialized empty Git repository in /Users/denysmyronenko/Desktop/LearnGit/.git/
+denysmyronenko@Denyss-MBP LearnGit % ls -al
+total 8
+drwxr-xr-x   4 denysmyronenko  staff  128 Apr 15 18:56 .
+drwx------+  7 denysmyronenko  staff  224 Apr 15 18:52 ..
+drwxr-xr-x  10 denysmyronenko  staff  320 Apr 15 18:56 .git
+-rw-r--r--@  1 denysmyronenko  staff  174 Apr 15 18:53 HelloWorld.txt
+denysmyronenko@Denyss-MBP LearnGit % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	HelloWorld.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+denysmyronenko@Denyss-MBP LearnGit % git add .
+denysmyronenko@Denyss-MBP LearnGit % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   HelloWorld.txt
+
+denysmyronenko@Denyss-MBP LearnGit % git commit -m"Fist commit"
+[master (root-commit) dd22218] Fist commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 HelloWorld.txt
+denysmyronenko@Denyss-MBP LearnGit % nano file2.txt
+
+  GNU nano 2.0.6         File: file2.txt                        
+
+
+
+
+
+
+
+
+
+
+
+
+                          [ New File ]
+^G Get Hel^O WriteOu^R Read Fi^Y Prev Pa^K Cut Tex^C Cur Pos
+^X Exit   ^J Justify^W Where I^V Next Pa^U UnCut T^T To Spell
